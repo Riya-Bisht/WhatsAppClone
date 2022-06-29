@@ -12,37 +12,37 @@ class ChatModel {
 }
 
 List<ChatModel> dummyData = [
-  new ChatModel(
+  ChatModel(
     name: "candy",
     message: "hey i m chococandy",
     time: "18:02",
     avatarUrl: "https://cdn-us.anidb.net/images/main/218212.jpg",
   ),
-  new ChatModel(
+  ChatModel(
     name: "candy",
     message: "hey i m chococandy",
     time: "18:02",
     avatarUrl: "https://cdn-us.anidb.net/images/main/218212.jpg",
   ),
-  new ChatModel(
+  ChatModel(
     name: "candy",
     message: "hey i m chococandy",
     time: "18:02",
     avatarUrl: "https://cdn-us.anidb.net/images/main/218212.jpg",
   ),
-  new ChatModel(
+  ChatModel(
     name: "candy",
     message: "hey i m chococandy",
     time: "18:02",
     avatarUrl: "https://cdn-us.anidb.net/images/main/218212.jpg",
   ),
-  new ChatModel(
+  ChatModel(
     name: "candy",
     message: "hey i m chococandy",
     time: "18:02",
     avatarUrl: "https://cdn-us.anidb.net/images/main/218212.jpg",
   ),
-  new ChatModel(
+  ChatModel(
     name: "candy",
     message: "hey i m chococandy",
     time: "18:02",
