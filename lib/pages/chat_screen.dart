@@ -3,6 +3,13 @@ import 'package:test_app/models/check_model.dart';
 
 class ChatScreen extends StatefulWidget {
   @override
+  ChatScreenState createState() {
+    return new ChatScreenState();
+  }
+}
+
+class ChatScreenState extends State<ChatScreen> {
+  @override
   Widget build(BuildContext context) {
     return new ListView.builder(
       itemCount: dummyData.length,
@@ -41,11 +48,5 @@ class ChatScreen extends StatefulWidget {
         ],
       ),
     );
-  }
-
-  @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
-    throw UnimplementedError();
   }
 }
